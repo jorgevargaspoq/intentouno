@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Elementos HTML</title>
+    <style>
+        body {
+        background-color: burlywood;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid white;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: black;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+    </style>
+</head>
+<h1>ELEMENTOS DE HTML</h1>
+<body>
+    <h1>Raíz principal</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td>&lt;html&gt;</td>
+            <td>El elemento HTML &lt;html&gt; (o elemento HTML raíz) representa la raíz de un documento HTML. El resto de elementos descienden de este elemento.</td>
+            <td><a href="#example">Example</a></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">Más información</a></td>
+           
+        </tr>
+    </table>
+
+    <h1>Metadatos del documento</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td>&lt;base&gt;</td>
+            <td>El elemento HTML &lt;base&gt; especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento &lt;base&gt; en un documento.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;head&gt;</td>
+            <td>El elemento HTML &lt;head&gt; provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;link&gt;</td>
+            <td>El elemento HTML &lt;link&gt; especifica la relación entre el documento actual y un recurso externo. Los usos posibles de este elemento incluyen la definición de un marco relacional para navegación. Este elemento es más frecuentemente usado para enlazar hojas de estilos.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;meta&gt;</td>
+            <td>Sus elementos son: &lt;meta&gt; (solo tiene una).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;style&gt;</td>
+            <td>Sus etiquetas son: &lt;style&gt; y &lt;/style&gt; (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;title&gt;</td>
+            <td>El elemento HTML &lt;title&gt; HTML define el título del documento que se muestra en un browser la barra de título o la pestaña de una página. Solo contiene texto; las etiquetas dentro del elemento se ignoran.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+    <h1>Seccionamiento basico</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td>&lt;body&gt;</td>
+            <td>El elemento HTML &lt;body&gt; de HTML representa el contenido de un documento HTML. Solo puede haber un elemento &lt;body&gt; en un documento.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank">Más información</a></td>
+        </tr>   
+    </table>
+    <h1>Seccionamiento del contenido</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td>&lt;address&gt;</td>
+            <td>El elemento HTML &lt;address&gt; aporta información de contacto para su &lt;article&gt; más cercano o ancestro &lt;body&gt;; en el último caso lo aplica a todo el documento</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;article&gt;</td>
+            <td>El elemento HTML &lt;article&gt; representa una composición auto-contenida en un documento, una página, una aplicación o en un sitio, que se quiere que sea distribuíble y/o reutilizable de manera independiente, por ejemplo, en la redifusión. Algunos ejemplos podrían ser un mensaje en un foro, un artículo de una revista o un periódico, una entrada de blog, el comentario de un usuario, un widget o gadget interactivo, o cualquier otro elemento de contenido independiente.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;aside&gt;</td>
+            <td>El elemento HTML &lt;aside&gt; representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento. Estas secciones son a menudo representadas como barras laterales o como inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o enlaces a blogs relacionados.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;footer&gt;</td>
+            <td>El elemento HTML Footer &lt;footer&gt; representa un pie de página para el contenido de sección más cercano o el elemento raíz de sección (p.e, su ancestro mas cercano &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;blockquote&gt;, &lt;body&gt;, &lt;datails&gt;, &lt;fieldset&gt;,&lt;figure&gt;, &lt;footer&gt;, &lt;td&gt;). Un pie de página típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;header&gt;</td>
+            <td>El elemento HTML Header (&lt;header&gt;) representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</td>
+            <td>Los elementos de encabezado implementan seis niveles de encabezado del documento, &lt;h1&gt; es el más importante, y &lt;h2&gt;, el menos importante. Un elemento de encabezado describe brevemente el tema de la sección que presenta. La información de encabezado puede ser usada por los agentes usuarios, por ejemplo, para construir una tabla de contenidos para un documento automáticamente.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;main&gt;</td>
+            <td>El elemento HTML &lt;main&gt;  representa el contenido principal del &lt;body&gt; de un documento o aplicación. El área principal del contenido consiste en el contenido que está directamente relacionado, o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación. Este contenido debe ser único al documento, excluyendo cualquier contenido que se repita a través de un conjunto de documentos como barras laterales, enlaces de navegación, información de derechos de autor, logos del sitio y formularios de búsqueda (a menos, claro, que la función principal del documento sea un formulario de búsqueda).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;nav&gt;</td>
+            <td>El elemento HTML &lt;nav&gt; representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos. Ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;section&gt;</td>
+            <td>El elemento HTML section (&lt;section&gt;) representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas. Es, por lo tanto, una etiqueta semántica. Su funcionalidad principal es estructurar semánticamente un documento a la hora de ser representado por parte de un agente usuario. Por ejemplo, un agente de usuario que represente el documento en voz, podría exponer al usuario el índice de contenido por niveles para navegar rápidamente por las distintas partes.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+    <h1>Contenido del texto</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td>&lt;blockquote&gt;</td>
+            <td>Sus etiquetas son: &lt;blockquote&gt; y &lt;/blockquote&gt; (ambas son obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;dd&gt;</td>
+            <td>El elemento HTML &lt;dd&gt; rovee detalles acerca de o la definición de un término precedente (&lt;dt&gt;) en una lista de descripciones (&lt;dl&gt;) </td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td>&lt;dl&gt;</td>
+            <td>El elemento HTML &lt;dl&gt; representa una lista descriptiva. El elemento encierra una lista de grupos de términos (especificados con el uso del elemento &lt;dt&gt;)  y de descripciones (proveídas con elementos &lt;dd&gt;).  Algunos usos comunes para este elemento son implementar un glosario o para desplegar metadatos (lista de pares llave-valor).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;dt&gt;</td>
+            <td>El elemento HTML <code>&lt;dt&gt;</code> especifica un término en una descripción o lista de definiciones, y como tal debe utilizarse dentro de un elemento <code>&lt;dl&gt;</code> Es usualmente seguido por un elemento <code>&lt;dd&gt;</code>; sin embargo, múltiples elementos <code>&lt;dt&gt;</code> en un renglón indican diferentes términos los cuales todos son definidos por el siguiente elemento <code>&lt;dd&gt;</code>.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;figcaption&gt;</code></td>
+            <td>El elemento <strong>HTML <code>&lt;figcaption&gt;</code></strong> representa un subtítulo o leyenda asociado al contenido del elemento padre <code>&lt;figure&gt;</code>, pudiendo ser colocado como primer o último hijo. Es importante destacar que el elemento <strong><code>&lt;figcaption&gt;</code></strong> es opcional.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;figure&gt;</code></td>
+            <td>El <em>elemento HTML</em> &lt;figure&gt; representa contenido independiente, a menudo con un título. Si bien se relaciona con el flujo principal, su posición es independiente de éste. Por lo general, se trata de una imagen, una ilustración, un diagrama, un fragmento de código, o un esquema al que se hace referencia en el texto principal, pero que se puede mover a otra página o a un apéndice sin que afecte al flujo principal.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;hr&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: <code>&lt;hr/&gt;</code> (solo tiene una).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;li&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;li&gt; y &lt;/li&gt; (la de cierre es opcional).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank">Más información</a></td> 
+        </tr>
+          <tr>
+            <td><code>&lt;menu&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;menu&gt; y &lt;/menu&gt; (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;ol&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;ol&gt; y &lt;/ol&gt; (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;p&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;p&gt; y &lt;/p&gt; (la de cierre es opcional).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;pre&gt;</code></td>
+            <td>El <strong>Elemento</strong> <strong>HTML &lt;pre&gt;</strong> (o <em>Texto HTML Preformateado</em>) representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo. Los espacios dentro de este elemento también son mostrados como están escritos.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;ul&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: <code>&lt;ul&gt; y &lt;/ul&gt;</code> (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+    <h1>Semantica del texto en linea</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td><code>&lt;a&gt;</code></td>
+            <td>El <em>Elemento HTML <code>Anchor</code></em> <strong><code>&lt;a&gt;</code></strong> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;abbr&gt;</code></td>
+            <td>El <strong>elemento HTML <code>&lt;abbr&gt;</code></strong> (<em>o Elemento de Abreviación HTML</em>) representa una abreviación o acrónimo; el atributo opcional <code>title</code> puede ampliar o describir la abreviatura. Si está presente, el atributo <code>title</code> debe contener la descripción completa y nada más.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;b&gt;</code></td>
+            <td><strong>b</strong> de bold=negrita.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;bdi&gt;</code></td>
+            <td>El elemento <em>HTML <code>&lt;bdi&gt;</code></em> (o elemento de aislamiento Bi-Direccional) aisla un trozo de texto para que pueda ser formateado con una dirección diferente al texto que hay fuera de él.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;bdo&gt;</code></td>
+            <td><strong>bdo</strong> Bi-Directional Overriding=Anulación de bidireccionalidad.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;br&gt;</code></td>
+            <td>El elemento HTML <em>line break</em> <code>&lt;br&gt;</code> produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de las líneas es significante.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;cite&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;cite&gt; y &lt;/cite&gt; (ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;code&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;code&gt; y &lt;/code&gt; (ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;data&gt;</code></td>
+            <td>El <strong>Elemento HTML <code>&lt;data&gt;</code></strong> vincula un contenido dado con una traducción legible por una máquina. Si el contenido está relacionado con <code>time-</code> o <code>date-</code>, debe usarse el elemento <code>&lt;time&gt;</code>.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;dfn&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;dfn&gt; y &lt;/dfn&gt; (ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;em&gt;</code></td>
+            <td>El <strong>elemento HTML <code>&lt;em&gt;</code></strong> es el apropiado para marcar con énfasis las partes importantes de un texto. El elemento <code>&lt;em&gt;</code> puede ser anidado, con cada nivel de anidamiento indicando un mayor grado de énfasis.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;i&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;i&gt; y &lt;/i&gt; (Ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;kbd&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;kbd&gt; y &lt;/kbd&gt; (ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;mark&gt;</code></td>
+            <td>El <strong>Elemento HTML Mark <code>&lt;mark&gt;</code></strong> representa un texto <strong>marcado</strong> o <strong>resaltado</strong> como referencia o anotación, debido a su relevancia o importancia en un contexto particular.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;q&gt;</code></td>
+            <td>El <strong>elemento HTML <code>&lt;q&gt;</code></strong> indica que el texto adjunto es una cita corta en línea. La mayoría de los navegadores modernos implementan esto rodeando el texto entre comillas. Este elemento está destinado a citas breves que no requieren saltos de párrafo; para citas de bloque independiente, utiliza el elemento <code>&lt;blockquote&gt;</code>.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;rp&gt;</code></td>
+            <td>Se utiliza para proporcionar paréntesis alternativos para navegadores que no admiten la visualización de anotaciones Ruby mediante el elemento <code>&lt;ruby&gt;</code>. Un elemento <code>&lt;rp&gt;</code> debe incluir cada uno de los paréntesis de apertura y cierre que envuelven el elemento <code>&lt;rt&gt;</code> que contiene el texto de la anotación.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;rt&gt;</code></td>
+            <td>Especifica el componente de texto ruby de una anotación ruby, que se utiliza para proporcionar información de pronunciación, traducción o transliteración para la tipografía de Asia oriental. El elemento <code>&lt;rt&gt;</code> siempre debe estar contenido dentro de un elemento <code>&lt;ruby&gt;</code> .</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt" target="_blank">Más información</a></td> 
+        </tr>
+          <tr>
+            <td><code>&lt;ruby&gt;</code>(en-US)</small></a></td>
+            <td>Representa pequeñas anotaciones que se muestran encima, debajo o al lado del texto base, generalmente utilizadas para mostrar la pronunciación de los caracteres de Asia oriental. También se puede usar para anotar otros tipos de texto, pero este uso es menos común.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;s&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;s&gt; y &lt;/s&gt; (Ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;samp&gt;</code></td>
+            <td>El elemento HTML Sample (<strong><code>&lt;samp&gt;</code></strong>) se utiliza para incluir texto en línea que representa una muestra (o cita) de la salida de un programa de ordenador. El contenido de esta etiqueta es renderizado generalmente usando la tipografía monoespaciada por defecto del navegador.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp" target="_blank">Más información</a></td> 
+        </tr>
+          <tr>
+            <td><code>&lt;small&gt;</code></td>
+            <td>El <strong>elemento HTML &lt;small&gt;</strong> hace el tamaño del texto una talla más pequeña (por ejemplo, de largo a mediano, o de pequeño a extra pequeño) que el tamaño mínimo de fuente del navegador. En HTML5, este elemento es reutilizado para representar comentarios laterales y letra pequeña, incluyendo derechos de autor y texto legal, independientemente de su estilo de presentación.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;span&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: <code>&lt;span&gt;</code> y <code>&lt;/span&gt;</code> (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;strong&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;strong&gt; y &lt;/strong&gt; (ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;sub&gt;</code></td>
+            <td>El <strong>elemento HTML</strong> &lt;sub&gt; define un fragmento de texto que se debe mostrar, por razones tipográficas, más bajo, y generalmente más pequeño, que el tramo principal del texto, es decir, en subíndice.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;sup&gt;</code></td>
+            <td>El <strong>elemento HTML</strong> &lt;sup&gt; define un fragmento de texto que se debe mostrar, por razones tipográficas, más alto, y generalmente más pequeño, que el tramo principal del texto, es decir, en superíndice.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" target="_blank">Más información</a></td>  
+        </tr>
+          <tr>
+            <td><code>&lt;time&gt;</code></td>
+            <td>El <strong>elemento HTML <code>&lt;time&gt;</code></strong> representa un periodo específico en el tiempo. Puede incluir el atributo <code>datetime</code> para convertir las fechas en un formato interno legible por un ordenador, permitiendo mejores resultados en los motores de búsqueda o características personalizadas como recordatorios.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;u&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;u&gt; y &lt;/u&gt; (Ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;var&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;var&gt; y &lt;/var&gt; (ambas obligatorias)</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;wbr&gt;</code></td>
+            <td>El elemento HTML <em>word break opportunity</em> <code>&lt;wbr&gt;</code> representa una posición dentro del texto donde el explorador puede opcionalmente saltar una línea , aunque sus reglas de salto de línea de otra manera no crearían un salto en esa posición .En páginas codificadas en UTF-8 , &lt;wbr&gt; se comporta como el punto de código <code>U+200B ZERO-WIDTH SPACE</code>. En particular se comporta como un punto de código unicode bidi BN , significando esto que no tiene efecto en ordenamiento bidi : <code>&lt;div dir=rtl&gt;123,&lt;wbr&gt;456&lt;/div&gt;</code> muestra , cuando no se rompa en dos líneas , 123, 456 y no 456 , 123 .</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+    <h1>Imagen y multimedia</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td><code>&lt;area&gt;</code></td>
+            <td><strong>area</strong> de área=área</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;audio&gt;</code></td>
+            <td>El elemento <code>audio</code> se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento <code>audio</code> se agregó como parte de HTML 5.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;img&gt;</code></td>
+            <td>El elemento de imagen HTML <strong><code>&lt;img&gt;</code></strong> representa una imagen en el documento.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;map&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;map&gt; y &lt;/map&gt; (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;track&gt;</code></td>
+            <td>El elemento HTML <strong><code>&lt;track&gt;</code></strong> se utiliza como elemento hijo de los elementos multimedia, <code>&lt;audio&gt;</code> y <code>&lt;video&gt;</code>. Le permite especificar pistas de texto cronometradas (o datos basados en el tiempo), por ejemplo, para manejar subtítulos automáticamente. Las pistas están formateadas en formato WebVTT (archivos <code>.vtt</code>): <em>Web Video Text Tracks</em> (pistas de texto de video web).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;video&gt;</code></td>
+            <td>El elemento <code>video</code> se utiliza para incrustar vídeos en un documento HTML o XHTML.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+    
+    <h1>Contenido incrustado</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+            <tr>
+                <th>Elemento</th>
+                <th>Descripción</th>
+                <th>Ejemplo</th>
+                <th>enlace/th>
+            </tr>
+            <tr>
+                <td>&lt;embed&gt;</td>
+                <td>El Elemento HTML Embed ( &lt;embed&gt; ) representa un punto de integración para una aplicación externa o de contenido interactivo (en otras palabras, un plug-in).</td>
+                <td></td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td>&lt;iframe&gt;</td>
+                <td>El elemento HTML &lt;iframe&gt; (de inline frame) representa un contexto de navegación anidado, el cual permite incrustar otra página HTML en la página actual.</td>
+                <td></td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td>&lt;object&gt;</td>
+                <td>El elemento HTML &lt;object&gt; representa un recurso externo, que puede ser tratado como una imagen, un contexto de navegación anidado, o como un recurso que debe ser manejado por un plugin.</td>
+                <td></td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td>&lt;picture&gt;</td>
+                <td>El elemento HTML &lt;picture&gt; es un contenedor usado para especificar múltiples elementos &lt;source&gt; y un elemento &lt;img&gt; contenido en él para proveer versiones de una imagen para diferentes escenarios de dispositivos. Si no hay coincidencias con los elementos &lt;source&gt;, el archivo especificado en los atributos src del elemento &lt;img&gt; es utilizado. La imagen seleccionada es entonces presentada en el espacio ocupado por el elemento &lt;img&gt;.</td>
+                <td></td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td>&lt;portal&gt; (en-US)</td>
+                <td>Habilita la incrustación de otra página HTML en la actual con el fin de permitir una navegación más fluida en nuevas páginas.</td>
+                <td></td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/portal" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td>&lt;source&gt;</td>
+                <td>El elemento HTML &lt;source&gt; especifica recursos de medios múltiples para los elementos &lt;picture&gt;, &lt;audio&gt;, o &lt;video&gt;. Es un elemento vacío. Normalmente se utiliza para servir el mismo contenido multimedia en varios formatos soportados por diferentes navegadores.</td>
+                <td></td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source" target="_blank">Más información</a></td>
+            </tr>
+        
+    </table>
+    <h1>SVG and MathML</h1>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td><code>&lt;svg&gt;</code></td>
+            <td>El elemento <code>svg</code> es un contenedor que define un nuevo sistema de coordenadas y viewport. Es usado como el elemento más externo de cualquier documento SVG, pero también puede ser usado para agregar un fragmento de un SVG dentro de un documento SVG o HTML.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/svg" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;math&gt;</code></td>
+            <td><code>&lt;math&gt;</code> es el elemento superior en MathML. Cada instancia válida de MathML debe estar rodeada de etiquetas <code>&lt;math&gt;</code>. Además, no debes anidar un segundo elemento <code>&lt;math&gt;</code> dentro de un primero, pero puedes tener un número arbitrario de otros elementos hijos en él.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/math" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+    
+    <h1>Script</h1>
+    <table>
+        <tr>
+            <td><code>&lt;canvas&gt;</code></td>
+            <td>El elemento HTML <em>canvas</em> (&lt;canvas&gt;) se puede utilizar para dibujar gráficos a través de secuencias de comandos (por lo general JavaScript). Por ejemplo, puede usarse para dibujar gráficos, hacer composiciones de fotos o incluso realizar animaciones.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;noscript&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: <code>&lt;noscript&gt;</code> y <code>&lt;/noscript&gt;</code> (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;script&gt;</code> <small>(en-US)</small></td>
+            <td>Se utiliza para incrustar código ejecutable o datos; esto generalmente se usa para incrustar o hacer referencia al código JavaScript. El elemento <code>&lt;script&gt;</code> también se puede usar con otros lenguajes, como el lenguaje de programación de sombreado GLSL de WebGL y JSON.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+
+    <h1>Ediciones demarcadas</h1>
+    <table>
+        <tr>
+            <td><code>&lt;del&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;del&gt; y &lt;/del&gt; (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del" target="_blank">Más información</a></td>
+        </tr>
+          <tr>
+            <td><code>&lt;ins&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: &lt;ins&gt; e &lt;/ins&gt; (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins" target="_blank">Más información</a></td> 
+        </tr>
+    </table>
+    <h1>Tablas</h1>
+    <table>
+        <tr>
+            <td><code>&lt;caption&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: <code>&lt;caption&gt;</code> y <code>&lt;/caption&gt;</code> (ambas obligatorias).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;col&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: <code>&lt;col&gt;</code> (solo tiene una).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;colgroup&gt;</code></td>
+            <td><strong>Sus etiquetas son</strong>: <code>&lt;colgroup&gt;</code> y <code>&lt;/colgroup&gt;</code> (la de cierre es opcional).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;table&gt;</code></td>
+            <td>El <em>Elemento de Tabla HTML</em> (<code>&lt;table&gt;</code>) representa datos en dos o más dimensiones.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;tbody&gt;</code> <small>(en-US)</small></td>
+            <td>Encapsula un conjunto de filas de una tabla (elementos <code>&lt;tr&gt;</code>), lo que indica que abarcan el cuerpo de la tabla (<code>&lt;table&gt;</code>).</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;td&gt;</code></td>
+            <td>El elemento HTML <em>Celda de tabla</em> (<strong><code>&lt;td&gt;</code></strong>) define la celda de una tabla que contiene datos. Esta participa en el <em>modelo de tablas</em>.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;tfoot&gt;</code> <small>(en-US)</small></td>
+            <td>Define un conjunto de filas que resumen las columnas de la tabla.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;th&gt;</code></td>
+            <td>El elemento <strong>HTML <code>&lt;th&gt;</code></strong> define una celda como encabezado de un grupo de celdas en una tabla. La naturaleza exacta de este grupo está definida por los atributos <code>scope</code> y <code>headers</code>.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;thead&gt;</code> <small>(en-US)</small></td>
+            <td>Define un conjunto de filas que definen el encabezado de las columnas de la tabla.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;tr&gt;</code></td>
+            <td>El elemento HTML <em>fila de tabla</em> (<em>table row</em>) <code>&lt;tr&gt;</code> define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <code>&lt;td&gt;</code> y <code>&lt;th&gt;</code>.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+    
+    <h1>Elementos Interactivos</h1>
+    <table>
+        <tr>
+            <td><code>&lt;details&gt;</code></td>
+            <td>El elemento HTML Details <strong>&lt;details&gt;</strong> es usado como un widget de revelación a través del cual el usuario puede obtener información adicional.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;dialog&gt;</code></td>
+            <td>El <strong>elemento</strong> <strong>HTML <code>&lt;dialog&gt;</code></strong> representa una caja de diálogo u otro componente interactivo, como inspector o ventana.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;summary&gt;</code> <small>(en-US)</small></td>
+            <td>Especifica un resumen, un título o una leyenda para el cuadro de información de un elemento de detalles. Al hacer clic en el elemento <code>&lt;summary&gt;</code>, el estado del elemento principal <code>&lt;details&gt;</code> se abre y se cierra.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary" target="_blank">Más información</a></td>
+        </tr>
+    </table>
+    <h1>Componentes Web</h1>
+    <table>
+        <tr>
+            <td><code>&lt;slot&gt;</code></td>
+            <td><strong>El elemento HTML <code>&lt;slot&gt;</code></strong> —parte de la suite tecnológica Web Components— es un placeholder en un componente que tú puedes llenar con tu propio marcado, que te permite crear árboles DOM por separado y presentarlos juntos.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot" target="_blank">Más información</a></td>
+        </tr>
+        <tr>
+            <td><code>&lt;template&gt;</code></td>
+            <td>El <strong>elemento</strong> <strong>HTML <code>&lt;template&gt;</code></strong> es un mecanismo para mantener el contenido HTML del lado del cliente que no se renderiza cuando se carga una página, pero que posteriormente puede ser instanciado durante el tiempo de ejecución empleando JavaScript.</td>
+            <td></td>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template" target="_blank">Más información</a></td>
+        </tr>
+    </table>  
+</body>
+</html>
